@@ -1,4 +1,63 @@
-# Intern-challenge
+# Vunder kids
+
+## Overview
+This project is a MERN Stack Dashboard Coding Challenge. The application is built using the MERN stack (MongoDB, Express.js, React, and Node.js).
+
+## Technologies and Libraries Used
+- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js**: Web framework for Node.js.
+- **MongoDB**: NoSQL database for storing user data.
+- **Mongoose**: Object Data Modeling (ODM) library for MongoDB and Node.js.
+- **React**: Frontend library for building user interfaces.
+- **React Router DOM**: Library for routing in React applications.
+- **bcrypt**: Library for hashing passwords.
+- **jsonwebtoken**: Library for creating and verifying JSON Web Tokens (JWT) for authentication.
+- **mdb-react-ui-kit**: Library for using Material Design Bootstrap components in React.
+
+# Navigate to the backend directory
+cd backend
+npm install
+
+# Navigate to the frontend directory
+cd ../frontend
+npm install
+
+# Navigate to the backend directory and start
+cd backend
+npm run start
+(The backend server will run on http://localhost:5001.)
+
+# Navigate to the frontend directory and start
+cd frontend
+npm start
+(The frontend client will run on http://localhost:3000.)
+
+# Directory Structure
+Intern-challenge
+├── backend/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── env
+│   ├── gitignore
+│   └── app.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   └── index.js
+├── README.md
+
+# Contact
+For any inquiries or issues, please contact me at "rehmatkhurshid1@gmail.com".
+
+
+
+<!-- # Intern-challenge
 
 # MERN Stack Dashboard Coding Challenge
 
@@ -63,3 +122,4 @@ Please submit your solution by July 15.
    ```bash
    git clone https://github.com/your-github-username/mern-dashboard-challenge.git
    cd mern-dashboard-challenge
+ -->
